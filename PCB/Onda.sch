@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:HydroPWNics_Lib
+LIBS:ESP32-footprints-Shem-Lib
 LIBS:Onda-cache
 EELAYER 25 0
 EELAYER END
