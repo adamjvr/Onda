@@ -375,15 +375,15 @@ F 3 "" H 6475 4700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 10725 2850 2    60   Input ~ 0
-RF_CS
+SPI3_CS
 Text HLabel 10725 2950 2    60   Input ~ 0
-RF_MOSI
+SPI3_MOSI
 Text HLabel 10725 3050 2    60   Input ~ 0
-RF_SCLK
+SPI3_SCLK
 Text HLabel 10725 3150 2    60   Input ~ 0
-RF_MISO
+SPI3_MISO
 Text HLabel 10725 3250 2    60   Input ~ 0
-RF_IRQ
+ADF_IRQ
 $Comp
 L RC1608J202CS R?
 U 1 1 58167FF8
@@ -544,8 +544,8 @@ $Comp
 L ADF7023BCPZ U?
 U 1 1 5817A575
 P 6525 3200
-F 0 "U?" H 7516 3228 60  0000 L CNN
-F 1 "ADF7023BCPZ" H 7516 3122 60  0000 L CNN
+F 0 "U?" H 5700 4050 60  0000 L CNN
+F 1 "ADF7023BCPZ" H 6925 2300 60  0000 L CNN
 F 2 "PCB_Footprints:ADF7023BCPZ" H 7675 6100 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADF7023.pdf" H 7725 4300 60  0001 C CNN
 F 4 "2.38368 @ 5000" H 6125 4400 60  0001 C CNN "Cost"
@@ -613,7 +613,13 @@ Wire Wire Line
 Wire Wire Line
 	6175 5125 6575 5125
 Wire Wire Line
-	6175 5775 7075 5775
+	6175 5775 6500 5775
+Wire Wire Line
+	6500 5775 6625 5775
+Wire Wire Line
+	6625 5775 6750 5775
+Wire Wire Line
+	6750 5775 7075 5775
 Wire Wire Line
 	6750 5675 6750 5775
 Connection ~ 6750 5775
@@ -634,10 +640,14 @@ Wire Wire Line
 Wire Wire Line
 	5025 2950 5150 2950
 Wire Wire Line
-	4575 2500 4575 2950
+	4575 2500 4575 2725
+Wire Wire Line
+	4575 2725 4575 2950
 Connection ~ 4575 2725
 Wire Wire Line
-	5825 4250 6275 4250
+	5825 4250 6175 4250
+Wire Wire Line
+	6175 4250 6275 4250
 Wire Wire Line
 	6775 4250 6875 4250
 Connection ~ 6175 4250
@@ -805,4 +815,20 @@ F 3 "" H 675 3325 50  0000 C CNN
 	1    675  3325
 	1    0    0    -1  
 $EndComp
+Text HLabel 10700 3350 2    60   Input ~ 0
+ST_BOOT0
+Text HLabel 10700 3450 2    60   Input ~ 0
+ST_BOOT1
+Text HLabel 10575 2200 2    60   Input ~ 0
+ADF_ST_RST
+Wire Wire Line
+	7475 3350 10700 3350
+Wire Wire Line
+	10700 3450 7475 3450
+Wire Wire Line
+	6625 2200 6625 2000
+Wire Wire Line
+	6625 2000 10350 2000
+Wire Wire Line
+	6825 2200 10575 2200
 $EndSCHEMATC

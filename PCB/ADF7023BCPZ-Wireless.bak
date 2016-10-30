@@ -375,15 +375,15 @@ F 3 "" H 6475 4700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 10725 2850 2    60   Input ~ 0
-RF_CS
+SPI3_CS
 Text HLabel 10725 2950 2    60   Input ~ 0
-RF_MOSI
+SPI3_MOSI
 Text HLabel 10725 3050 2    60   Input ~ 0
-RF_SCLK
+SPI3_SCLK
 Text HLabel 10725 3150 2    60   Input ~ 0
-RF_MISO
+SPI3_MISO
 Text HLabel 10725 3250 2    60   Input ~ 0
-RF_IRQ
+ADF_IRQ
 $Comp
 L RC1608J202CS R?
 U 1 1 58167FF8
@@ -544,8 +544,8 @@ $Comp
 L ADF7023BCPZ U?
 U 1 1 5817A575
 P 6525 3200
-F 0 "U?" H 7516 3228 60  0000 L CNN
-F 1 "ADF7023BCPZ" H 7516 3122 60  0000 L CNN
+F 0 "U?" H 5700 4050 60  0000 L CNN
+F 1 "ADF7023BCPZ" H 6925 2300 60  0000 L CNN
 F 2 "PCB_Footprints:ADF7023BCPZ" H 7675 6100 60  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADF7023.pdf" H 7725 4300 60  0001 C CNN
 F 4 "2.38368 @ 5000" H 6125 4400 60  0001 C CNN "Cost"
@@ -613,7 +613,13 @@ Wire Wire Line
 Wire Wire Line
 	6175 5125 6575 5125
 Wire Wire Line
-	6175 5775 7075 5775
+	6175 5775 6500 5775
+Wire Wire Line
+	6500 5775 6625 5775
+Wire Wire Line
+	6625 5775 6750 5775
+Wire Wire Line
+	6750 5775 7075 5775
 Wire Wire Line
 	6750 5675 6750 5775
 Connection ~ 6750 5775
@@ -634,10 +640,14 @@ Wire Wire Line
 Wire Wire Line
 	5025 2950 5150 2950
 Wire Wire Line
-	4575 2500 4575 2950
+	4575 2500 4575 2725
+Wire Wire Line
+	4575 2725 4575 2950
 Connection ~ 4575 2725
 Wire Wire Line
-	5825 4250 6275 4250
+	5825 4250 6175 4250
+Wire Wire Line
+	6175 4250 6275 4250
 Wire Wire Line
 	6775 4250 6875 4250
 Connection ~ 6175 4250
@@ -703,29 +713,29 @@ Wire Wire Line
 $Comp
 L 1909763-1 T?
 U 1 1 5817C82C
-P 1150 3075
-F 0 "T?" H 1125 3300 60  0000 L CNN
-F 1 "1909763-1" H 700 3200 60  0000 L CNN
-F 2 "PCB_Footprints:1909763-1" H 1200 2925 60  0001 C CNN
-F 3 "https://media.digikey.com/pdf/PCNs/TE%20Connectivity/E-15-016061(2).pdf" H 850 3250 60  0001 C CNN
-F 4 "0.24000 @ 5000" H 950 3350 60  0001 C CNN "Cost"
-F 5 "8 Sept 2016" H 1050 3450 60  0001 C CNN "Date Created"
-F 6 "8 Sept 2016" H 1150 3550 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 1250 3650 60  0001 C CNN "Designer"
-F 8 "1.25mm" H 1350 3750 60  0001 C CNN "Height"
-F 9 "Yes" H 1450 3850 60  0001 C CNN "RHoS?"
-F 10 "TE Connectivity AMP Connectors" H 1550 3950 60  0001 C CNN "MFR"
-F 11 "1909763-1" H 1650 4050 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 1750 4150 60  0001 C CNN "Mounting"
-F 13 "2" H 1850 4250 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 1950 4350 60  0001 C CNN "Status"
-F 15 "N/A" H 2050 4450 60  0001 C CNN "Tolerance"
-F 16 "Coaxial RF Connector" H 2150 4550 60  0001 C CNN "Type"
-F 17 "N/A" H 2250 4650 60  0001 C CNN "Voltage"
-F 18 "N/A" H 2350 4750 60  0001 C CNN "Wattage"
-F 19 "50 ohm" H 2450 4850 60  0001 C CNN "Component-Value"
-F 20 "Ultra Miniature Coaxial Connector Jack, Male Pin 50 Ohm Surface Mount Solder" H 2550 4950 60  0001 C CNN "Description"
-	1    1150 3075
+P 675 3050
+F 0 "T?" H 650 3275 60  0000 L CNN
+F 1 "1909763-1" H 225 3175 60  0000 L CNN
+F 2 "PCB_Footprints:1909763-1" H 725 2900 60  0001 C CNN
+F 3 "https://media.digikey.com/pdf/PCNs/TE%20Connectivity/E-15-016061(2).pdf" H 375 3225 60  0001 C CNN
+F 4 "0.24000 @ 5000" H 475 3325 60  0001 C CNN "Cost"
+F 5 "8 Sept 2016" H 575 3425 60  0001 C CNN "Date Created"
+F 6 "8 Sept 2016" H 675 3525 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 775 3625 60  0001 C CNN "Designer"
+F 8 "1.25mm" H 875 3725 60  0001 C CNN "Height"
+F 9 "Yes" H 975 3825 60  0001 C CNN "RHoS?"
+F 10 "TE Connectivity AMP Connectors" H 1075 3925 60  0001 C CNN "MFR"
+F 11 "1909763-1" H 1175 4025 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 1275 4125 60  0001 C CNN "Mounting"
+F 13 "2" H 1375 4225 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 1475 4325 60  0001 C CNN "Status"
+F 15 "N/A" H 1575 4425 60  0001 C CNN "Tolerance"
+F 16 "Coaxial RF Connector" H 1675 4525 60  0001 C CNN "Type"
+F 17 "N/A" H 1775 4625 60  0001 C CNN "Voltage"
+F 18 "N/A" H 1875 4725 60  0001 C CNN "Wattage"
+F 19 "50 ohm" H 1975 4825 60  0001 C CNN "Component-Value"
+F 20 "Ultra Miniature Coaxial Connector Jack, Male Pin 50 Ohm Surface Mount Solder" H 2075 4925 60  0001 C CNN "Description"
+	1    675  3050
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -738,4 +748,87 @@ Wire Wire Line
 	10725 3150 7475 3150
 Wire Wire Line
 	7475 3250 10725 3250
+$Comp
+L 0402CS-12NXJL L?
+U 1 1 5817F234
+P 1800 3050
+F 0 "L?" H 1800 3403 60  0000 C CNN
+F 1 "0402CS-12NXJL" H 1800 3297 60  0000 C CNN
+F 2 "PCB_Footprints:L0402" H 1350 3100 60  0001 C CNN
+F 3 "http://www.coilcraft.com/pdfs/0402cs.pdf" H 1850 3225 60  0001 C CNN
+F 4 "0.20 @ 4000" H 1550 3300 60  0001 C CNN "Cost"
+F 5 "29 Oct 2016" H 1650 3400 60  0001 C CNN "Date Created "
+F 6 "29 Oct 2016" H 1750 3500 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 1850 3600 60  0001 C CNN "Designer "
+F 8 "0.66mm" H 1950 3700 60  0001 C CNN "Height"
+F 9 "Yes" H 2050 3800 60  0001 C CNN "RHoS?"
+F 10 "Coilcraft Inc" H 2150 3900 60  0001 C CNN "MFR"
+F 11 "0402CS-12NXJL" H 2250 4000 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 2350 4100 60  0001 C CNN "Mounting"
+F 13 "2" H 2450 4200 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 2550 4300 60  0001 C CNN "Status"
+F 15 "5%" H 2650 4400 60  0001 C CNN "Tolerance"
+F 16 "0402 Wirewound RF Inductor" H 2750 4500 60  0001 C CNN "Type"
+F 17 "N/A" H 2850 4600 60  0001 C CNN "Voltage"
+F 18 "N/A" H 2950 4700 60  0001 C CNN "Wattage"
+F 19 "12nH" H 1800 3191 60  0000 C CNN "Component-Value"
+F 20 "12nH 0402CS (1005) Ceramic Chip Inductors RF Grade" H 3150 4900 60  0001 C CNN "Description"
+	1    1800 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0402CS-24NXJL L?
+U 1 1 5817F36F
+P 2600 3050
+F 0 "L?" H 2600 3403 60  0000 C CNN
+F 1 "0402CS-24NXJL" H 2600 3297 60  0000 C CNN
+F 2 "PCB_Footprints:L0402" H 2150 3100 60  0001 C CNN
+F 3 "http://www.coilcraft.com/pdfs/0402cs.pdf" H 2650 3225 60  0001 C CNN
+F 4 "0.20 @ 4000" H 2350 3300 60  0001 C CNN "Cost"
+F 5 "29 Oct 2016" H 2450 3400 60  0001 C CNN "Date Created "
+F 6 "29 Oct 2016" H 2550 3500 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 2650 3600 60  0001 C CNN "Designer "
+F 8 "0.66mm" H 2750 3700 60  0001 C CNN "Height"
+F 9 "Yes" H 2850 3800 60  0001 C CNN "RHoS?"
+F 10 "Coilcraft Inc" H 2950 3900 60  0001 C CNN "MFR"
+F 11 "0402CS-24NXJL" H 3050 4000 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 3150 4100 60  0001 C CNN "Mounting"
+F 13 "2" H 3250 4200 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 3350 4300 60  0001 C CNN "Status"
+F 15 "5%" H 3450 4400 60  0001 C CNN "Tolerance"
+F 16 "0402 Wirewound RF Inductor" H 3550 4500 60  0001 C CNN "Type"
+F 17 "N/A" H 3650 4600 60  0001 C CNN "Voltage"
+F 18 "N/A" H 3750 4700 60  0001 C CNN "Wattage"
+F 19 "24nH" H 2600 3191 60  0000 C CNN "Component-Value"
+F 20 "24nH 0402CS (1005) Ceramic Chip Inductors RF Grade" H 3950 4900 60  0001 C CNN "Description"
+	1    2600 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5817FFB1
+P 675 3325
+F 0 "#PWR?" H 675 3075 50  0001 C CNN
+F 1 "GND" H 680 3152 50  0000 C CNN
+F 2 "" H 675 3325 50  0000 C CNN
+F 3 "" H 675 3325 50  0000 C CNN
+	1    675  3325
+	1    0    0    -1  
+$EndComp
+Text HLabel 10700 3350 2    60   Input ~ 0
+ST_BOOT0
+Text HLabel 10700 3450 2    60   Input ~ 0
+ST_BOOT1
+Text HLabel 10575 2200 2    60   Input ~ 0
+ADF_ST_RST
+Wire Wire Line
+	7475 3350 10700 3350
+Wire Wire Line
+	10700 3450 7475 3450
+Wire Wire Line
+	6625 2200 6625 2000
+Wire Wire Line
+	6625 2000 10350 2000
+Wire Wire Line
+	6825 2200 10575 2200
 $EndSCHEMATC

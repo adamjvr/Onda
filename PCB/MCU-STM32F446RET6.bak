@@ -45,16 +45,10 @@ Comment2 "Engineer: Adam Vadala-Roth"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 2000 4775 0    60   BiDi ~ 0
-ESP_ST_RST
+Text HLabel 1975 4775 0    60   BiDi ~ 0
+ADF_ST_RST
 Text HLabel 3925 1650 0    60   BiDi ~ 0
-STM_ESP_RST
-Text HLabel 3925 1550 0    60   Output ~ 0
-ESP_UTX
-Text HLabel 3950 1450 0    60   Input ~ 0
-ESP_URX
-Text HLabel 1150 3450 0    60   Input ~ 0
-ESP_PGM_MODE
+ADF_IRQ
 Text HLabel 10600 2475 2    60   Input ~ 0
 VBUS
 $Comp
@@ -1293,9 +1287,9 @@ F 3 "" H 8325 6225 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 5725 6225 2    59   Input ~ 0
-ESPTOST_BOOT0
+ST_BOOT0
 Text HLabel 10225 1650 2    59   Input ~ 0
-ESPTOST_BOOT1
+ST_BOOT1
 Text HLabel 975  3350 0    60   BiDi ~ 0
 BAT_VOLT
 $Comp
@@ -1758,10 +1752,6 @@ F 3 "" H 2550 725 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3925 1550 4625 1550
-Wire Wire Line
-	4625 1450 3950 1450
-Wire Wire Line
 	5125 6300 5500 6300
 Wire Wire Line
 	4625 1650 3925 1650
@@ -1771,14 +1761,6 @@ Wire Wire Line
 	6475 3350 7125 3350
 Wire Wire Line
 	6475 3550 7125 3550
-Text Label 6600 3350 0    60   ~ 0
-PC10
-Text Label 6600 3550 0    60   ~ 0
-PC12
-Text Label 1175 1575 0    60   ~ 0
-PC10
-Text Label 1175 1775 0    60   ~ 0
-PC12
 $Comp
 L GND #PWR17
 U 1 1 57EF642A
@@ -1851,8 +1833,6 @@ Wire Wire Line
 	4625 3550 4075 3550
 Wire Wire Line
 	4075 3650 4625 3650
-Text Label 4250 1850 0    60   ~ 0
-PA4
 Text Label 4250 1950 0    60   ~ 0
 PA5
 Text Label 4250 2050 0    60   ~ 0
@@ -1945,10 +1925,6 @@ Wire Wire Line
 	4625 3150 4325 3150
 Wire Wire Line
 	4625 3250 4325 3250
-Wire Wire Line
-	1150 3450 4625 3450
-Text Label 1175 1675 0    60   ~ 0
-PC11
 Text Label 4400 3250 0    60   ~ 0
 PC1
 Text Label 4400 3150 0    60   ~ 0
@@ -1960,14 +1936,12 @@ PC0
 Wire Wire Line
 	6475 3650 7125 3650
 Wire Wire Line
-	7125 3650 7125 3625
-Wire Wire Line
 	6475 1550 6975 1550
 Wire Wire Line
 	6975 1550 6975 1525
 Wire Wire Line
 	6475 1450 6900 1450
-Text Label 6600 3650 0    60   ~ 0
+Text Label 6725 3650 0    60   ~ 0
 PC13
 Text Label 1175 2375 0    60   ~ 0
 PC13
@@ -2091,14 +2065,10 @@ F 3 "" H 2650 1825 50  0000 C CNN
 	1    2650 1825
 	1    0    0    -1  
 $EndComp
-Text Label 6600 3450 0    60   ~ 0
-PC11
 Wire Wire Line
 	6475 3450 7125 3450
 Text Label 4250 1750 0    60   ~ 0
 PA3
-Text Label 2225 2475 0    60   ~ 0
-PA4
 Text Label 2225 2575 0    60   ~ 0
 PA3
 Wire Wire Line
@@ -2133,4 +2103,12 @@ Wire Wire Line
 	2450 1675 2125 1675
 Wire Wire Line
 	1125 1175 1400 1175
+Text HLabel 7125 3350 2    60   Input ~ 0
+SPI3_SLCK
+Text HLabel 7125 3450 2    60   Input ~ 0
+SPI3_MISO
+Text HLabel 7125 3550 2    60   Input ~ 0
+SPI3_MOSI
+Text HLabel 4050 1850 0    60   Input ~ 0
+SPI3_CS
 $EndSCHEMATC
