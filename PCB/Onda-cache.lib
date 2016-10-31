@@ -594,6 +594,38 @@ X GND-PAD 11 -50 -850 200 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# CBR04C560F1GAC
+#
+DEF CBR04C560F1GAC C 0 40 Y Y 1 F N
+F0 "C" -600 -50 60 H V C CNN
+F1 "CBR04C560F1GAC" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://www.kemet.com/Lists/ProductCatalog/Attachments/490/KEM_C1030_CBR_SMD.pdf" -650 150 60 H I C CNN
+F4 "0.18833 @ 5000" -550 250 60 H I C CNN "Cost"
+F5 "30 Oct 2016" -450 350 60 H I C CNN "Date Created"
+F6 "30 Oct 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.55mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Kemet" 50 850 60 H I C CNN "MFR"
+F11 "CBR04C560F1GAC" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "1%" 550 1350 60 H I C CNN "Tolerance"
+F16 "Microwave RF Ceramic Capacitor 0402" 650 1450 60 H I C CNN "Type"
+F17 "100V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "56pF" -525 -250 60 H V C CNN "Componen-Value"
+F20 "56pF 100V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 I
+X ~ 2 225 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # CL05A105KA5NQNC
 #
 DEF CL05A105KA5NQNC C 0 40 Y Y 1 F N
@@ -1183,6 +1215,38 @@ F3 "" 0 0 50 H V C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# GRM1555C1H2R2CA01D
+#
+DEF GRM1555C1H2R2CA01D C 0 40 Y Y 1 F N
+F0 "C" -600 -50 60 H V C CNN
+F1 "GRM1555C1H2R2CA01D" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" -650 150 60 H I C CNN
+F4 "0.00285 @ 5000" -550 250 60 H I C CNN "Cost"
+F5 "28 Oct 2016" -450 350 60 H I C CNN "Date Created"
+F6 "28 Oct 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.51mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Murata Electronics North America" 50 850 60 H I C CNN "MFR"
+F11 "GRM1555C1H2R2CA01D" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "2%" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402" 650 1450 60 H I C CNN "Type"
+F17 "50V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "2.2pF" -525 -250 60 H V C CNN "Componen-Value"
+F20 "2.2pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 I
+X ~ 2 225 0 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
