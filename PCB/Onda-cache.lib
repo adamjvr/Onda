@@ -55,6 +55,44 @@ X ~ 2 400 0 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# 0402CS-1N8XJL
+#
+DEF 0402CS-1N8XJL L 0 40 Y Y 1 F N
+F0 "L" -150 -175 60 H V C CNN
+F1 "0402CS-1N8XJL" 0 -100 60 H V C CNN
+F2 "PCB_Footprints:L0402" -450 50 60 H I C CNN
+F3 "http://www.coilcraft.com/pdfs/0402cs.pdf" 50 175 60 H I C CNN
+F4 "0.20 @ 4000" -250 250 60 H I C CNN "Cost"
+F5 "14 Oct 2016" -150 350 60 H I C CNN "Date Created "
+F6 "14 Oct 2016" -50 450 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 50 550 60 H I C CNN "Designer "
+F8 "0.4mm" 150 650 60 H I C CNN "Height"
+F9 "Yes" 250 750 60 H I C CNN "RHoS?"
+F10 "Coilcraft Inc" 350 850 60 H I C CNN "MFR"
+F11 "0402CS-1N8XJL" 450 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 550 1050 60 H I C CNN "Mounting"
+F13 "2" 650 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 750 1250 60 H I C CNN "Status"
+F15 "5%" 850 1350 60 H I C CNN "Tolerance"
+F16 "0402 Wirewound RF Inductor" 950 1450 60 H I C CNN "Type"
+F17 "N/A" 1050 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1150 1650 60 H I C CNN "Wattage"
+F19 "1.8nH" -100 -275 60 H V C CNN "Component-Value"
+F20 "1.8nH 0402CS (1005) Ceramic Chip Inductors RF Grade" 1350 1850 60 H I C CNN "Description"
+DRAW
+A -151 0 49 1800 889 0 1 0 N -200 0 -150 50
+A -150 1 49 900 -11 0 1 0 N -150 50 -100 0
+A -51 0 49 1800 889 0 1 0 N -100 0 -50 50
+A -50 1 49 900 -11 0 1 0 N -50 50 0 0
+A 49 0 49 1800 889 0 1 0 N 0 0 50 50
+A 50 1 49 900 -11 0 1 0 N 50 50 100 0
+A 149 0 49 1800 889 0 1 0 N 100 0 150 50
+A 150 1 49 900 -11 0 1 0 N 150 50 200 0
+X ~ 1 -400 0 200 R 50 50 1 1 I
+X ~ 2 400 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # 0402CS-24NXJL
 #
 DEF 0402CS-24NXJL L 0 40 Y Y 1 F N
@@ -79,6 +117,82 @@ F17 "N/A" 1050 1550 60 H I C CNN "Voltage"
 F18 "N/A" 1150 1650 60 H I C CNN "Wattage"
 F19 "24nH" -100 -275 60 H V C CNN "Component-Value"
 F20 "24nH 0402CS (1005) Ceramic Chip Inductors RF Grade" 1350 1850 60 H I C CNN "Description"
+DRAW
+A -151 0 49 1800 889 0 1 0 N -200 0 -150 50
+A -150 1 49 900 -11 0 1 0 N -150 50 -100 0
+A -51 0 49 1800 889 0 1 0 N -100 0 -50 50
+A -50 1 49 900 -11 0 1 0 N -50 50 0 0
+A 49 0 49 1800 889 0 1 0 N 0 0 50 50
+A 50 1 49 900 -11 0 1 0 N 50 50 100 0
+A 149 0 49 1800 889 0 1 0 N 100 0 150 50
+A 150 1 49 900 -11 0 1 0 N 150 50 200 0
+X ~ 1 -400 0 200 R 50 50 1 1 I
+X ~ 2 400 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# 0402CS-47NXJL
+#
+DEF 0402CS-47NXJL L 0 40 Y Y 1 F N
+F0 "L" -150 -175 60 H V C CNN
+F1 "0402CS-47NXJL" 0 -100 60 H V C CNN
+F2 "PCB_Footprints:L0402" -450 50 60 H I C CNN
+F3 "http://www.coilcraft.com/pdfs/0402cs.pdf" 50 175 60 H I C CNN
+F4 "0.20 @ 4000" -250 250 60 H I C CNN "Cost"
+F5 "29 Oct 2016" -150 350 60 H I C CNN "Date Created "
+F6 "29 Oct 2016" -50 450 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 50 550 60 H I C CNN "Designer "
+F8 "0.66mm" 150 650 60 H I C CNN "Height"
+F9 "Yes" 250 750 60 H I C CNN "RHoS?"
+F10 "Coilcraft Inc" 350 850 60 H I C CNN "MFR"
+F11 "0402CS-47NXJL" 450 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 550 1050 60 H I C CNN "Mounting"
+F13 "2" 650 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 750 1250 60 H I C CNN "Status"
+F15 "5%" 850 1350 60 H I C CNN "Tolerance"
+F16 "0402 Wirewound RF Inductor" 950 1450 60 H I C CNN "Type"
+F17 "N/A" 1050 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1150 1650 60 H I C CNN "Wattage"
+F19 "47nH" -100 -275 60 H V C CNN "Component-Value"
+F20 "47nH 0402CS (1005) Ceramic Chip Inductors RF Grade" 1350 1850 60 H I C CNN "Description"
+DRAW
+A -151 0 49 1800 889 0 1 0 N -200 0 -150 50
+A -150 1 49 900 -11 0 1 0 N -150 50 -100 0
+A -51 0 49 1800 889 0 1 0 N -100 0 -50 50
+A -50 1 49 900 -11 0 1 0 N -50 50 0 0
+A 49 0 49 1800 889 0 1 0 N 0 0 50 50
+A 50 1 49 900 -11 0 1 0 N 50 50 100 0
+A 149 0 49 1800 889 0 1 0 N 100 0 150 50
+A 150 1 49 900 -11 0 1 0 N 150 50 200 0
+X ~ 1 -400 0 200 R 50 50 1 1 I
+X ~ 2 400 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# 0402CS-6N2XJL
+#
+DEF 0402CS-6N2XJL L 0 40 Y Y 1 F N
+F0 "L" -150 -175 60 H V C CNN
+F1 "0402CS-6N2XJL" 0 -100 60 H V C CNN
+F2 "PCB_Footprints:L0402" -450 50 60 H I C CNN
+F3 "http://www.coilcraft.com/pdfs/0402cs.pdf" 50 175 60 H I C CNN
+F4 "0.20 @ 4000" -250 250 60 H I C CNN "Cost"
+F5 "29 Oct 2016" -150 350 60 H I C CNN "Date Created "
+F6 "29 Oct 2016" -50 450 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 50 550 60 H I C CNN "Designer "
+F8 "0.66mm" 150 650 60 H I C CNN "Height"
+F9 "Yes" 250 750 60 H I C CNN "RHoS?"
+F10 "Coilcraft Inc" 350 850 60 H I C CNN "MFR"
+F11 "0402CS-6N2XJL" 450 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 550 1050 60 H I C CNN "Mounting"
+F13 "2" 650 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 750 1250 60 H I C CNN "Status"
+F15 "5%" 850 1350 60 H I C CNN "Tolerance"
+F16 "0402 Wirewound RF Inductor" 950 1450 60 H I C CNN "Type"
+F17 "N/A" 1050 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1150 1650 60 H I C CNN "Wattage"
+F19 "6.2nH" -100 -275 60 H V C CNN "Component-Value"
+F20 "6.2nH 0402CS (1005) Ceramic Chip Inductors RF Grade" 1350 1850 60 H I C CNN "Description"
 DRAW
 A -151 0 49 1800 889 0 1 0 N -200 0 -150 50
 A -150 1 49 900 -11 0 1 0 N -150 50 -100 0
@@ -133,65 +247,30 @@ X SHLD 11 600 -100 200 U 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# 0868BM15C0001E
+# 0732511150
 #
-DEF 0868BM15C0001E BL 0 40 Y Y 1 F N
-F0 "BL" -200 200 60 H V C CNN
-F1 "0868BM15C0001E" 0 -200 60 H V C CNN
-F2 "PCB_Footprints:0868BM15C0001E" 1450 775 60 H I C CNN
-F3 "http://www.johansontechnology.com/datasheets/chipset-specific/0868BM15C0001.pdf" 150 -775 60 H I C CNN
-F4 "0.31185 @ 1000" -50 650 60 H I C CNN "Cost"
-F5 "29 Oct 2016" 150 850 60 H I C CNN "Date Created"
-F6 "29 Oct 2016" 250 950 60 H I C CNN "Date Modified"
-F7 "Adam Vadala-Roth" 350 1050 60 H I C CNN "Designer"
-F8 "0.7mm" 450 1150 60 H I C CNN "Height"
-F9 "Yes" 550 1250 60 H I C CNN "RHoS?"
-F10 "Johanson Technology Inc." 650 1350 60 H I C CNN "MFR"
-F11 "0868BM15C0001E" 750 1450 60 H I C CNN "MFR#"
-F12 "SMT/SMD" 850 1550 60 H I C CNN "Mounting"
-F13 "6" 950 1650 60 H I C CNN "Pin Count#"
-F14 "Active" 1050 1750 60 H I C CNN "Satus"
-F15 "N/A" 1150 1850 60 H I C CNN "Tolerance"
-F16 "RF Balun" 1250 1950 60 H I C CNN "Type"
-F17 "N/A" 1350 2050 60 H I C CNN "Voltage"
-F18 "N/A" 1350 2050 60 H I C CNN "Wattage"
-F19 "N/A" 1450 2150 60 H I C CNN "Component-Value"
-F20 "RF Balun 863MHz ~ 873MHz 50 / - Ohm 0805 (2012 Metric), 6 PC Pad" 1550 2250 60 H I C CNN "Description"
-DRAW
-S -300 150 300 -150 0 1 0 f
-X UNBAL 1 -500 100 200 R 50 50 1 1 I
-X GND 2 -500 0 200 R 50 50 1 1 I
-X BAL1 3 -500 -100 200 R 50 50 1 1 I
-X BAL2 4 500 -100 200 L 50 50 1 1 I
-X GND 5 500 0 200 L 50 50 1 1 I
-X GND 6 500 100 200 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# 1909763-1
-#
-DEF 1909763-1 T 0 40 Y Y 1 F N
+DEF 0732511150 T 0 40 Y Y 1 F N
 F0 "T" 150 -50 60 H V C CNN
-F1 "1909763-1" 350 50 60 H V C CNN
-F2 "PCB_Footprints:1909763-1" 50 -150 60 H I C CNN
-F3 "https://media.digikey.com/pdf/PCNs/TE%20Connectivity/E-15-016061(2).pdf" -300 175 60 H I C CNN
-F4 "0.24000 @ 5000" -200 275 60 H I C CNN "Cost"
-F5 "8 Sept 2016" -100 375 60 H I C CNN "Date Created"
-F6 "8 Sept 2016" 0 475 60 H I C CNN "Date Modified"
+F1 "0732511150" 350 50 60 H V C CNN
+F2 "PCB_Footprints:0732511150" 50 -150 60 H I C CNN
+F3 "http://www.molex.com/pdm_docs/sd/732511150_sd.pdf" -300 175 60 H I C CNN
+F4 "1.929370 @ 1000" -200 275 60 H I C CNN "Cost"
+F5 "7 Nov 2016" -100 375 60 H I C CNN "Date Created"
+F6 "7 Nov 2016" 0 475 60 H I C CNN "Date Modified"
 F7 "Adam Vadala-Roth" 100 575 60 H I C CNN "Designer"
 F8 "1.25mm" 200 675 60 H I C CNN "Height"
 F9 "Yes" 300 775 60 H I C CNN "RHoS?"
-F10 "TE Connectivity AMP Connectors" 400 875 60 H I C CNN "MFR"
-F11 "1909763-1" 500 975 60 H I C CNN "MFR#"
+F10 "Molex, LLC" 400 875 60 H I C CNN "MFR"
+F11 "0732511150" 500 975 60 H I C CNN "MFR#"
 F12 "SMT/SMD" 600 1075 60 H I C CNN "Mounting"
 F13 "2" 700 1175 60 H I C CNN "Pin Count#"
 F14 "Active" 800 1275 60 H I C CNN "Status"
 F15 "N/A" 900 1375 60 H I C CNN "Tolerance"
-F16 "Coaxial RF Connector" 1000 1475 60 H I C CNN "Type"
+F16 "SMA Coaxial RF Connector" 1000 1475 60 H I C CNN "Type"
 F17 "N/A" 1100 1575 60 H I C CNN "Voltage"
 F18 "N/A" 1200 1675 60 H I C CNN "Wattage"
 F19 "50 ohm" 1300 1775 60 H I C CNN "Component-Value"
-F20 "Ultra Miniature Coaxial Connector Jack, Male Pin 50 Ohm Surface Mount Solder" 1400 1875 60 H I C CNN "Description"
+F20 "SMA Connector Receptacle, Female Socket 50 Ohm Board Edge, End Launch Solder" 1400 1875 60 H I C CNN "Description"
 DRAW
 C 0 0 35 0 1 0 N
 S -75 75 75 -75 0 1 0 N
@@ -236,6 +315,47 @@ X 7 7 -350 -50 197 R 50 50 1 1 B
 X 8 8 350 -50 197 L 50 50 1 1 B
 X 9 9 -350 -150 197 R 50 50 1 1 B
 X 10 10 350 -150 197 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# ABM11-140-26.000MHZ-T3
+#
+DEF ABM11-140-26.000MHZ-T3 X 0 40 Y Y 1 F N
+F0 "X" -100 200 60 H V C CNN
+F1 "ABM11-140-26.000MHZ-T3" 500 200 60 H V C CNN
+F2 "PCB_Footprints:ABM11-140-26.000MHZ-T3" -200 100 60 H I C CNN
+F3 "http://www.abracon.com/Resonators/ABM11.pdf" -100 200 60 H I C CNN
+F4 "0.31500 @ 1000" 500 800 60 H I C CNN "Cost"
+F5 "5 Nov 2016" 100 400 60 H I C CNN "Date Created "
+F6 "5 Nov 2016" 200 500 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 300 600 60 H I C CNN "Designer"
+F8 "0.5mm" 600 900 60 H I C CNN "Height"
+F9 "Yes" 700 1000 60 H I C CNN "RHoS?"
+F10 "Abracon LLC" 800 1100 60 H I C CNN "MFR"
+F11 "ABM11-140-26.000MHZ-T3" 900 1200 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 1000 1300 60 H I C CNN "Mounting"
+F13 "4" 900 1200 60 H I C CNN "Pin Count#"
+F14 "Active" 1000 1300 60 H I C CNN "Status"
+F15 "N/A" 1100 1400 60 H I C CNN "Tolerance"
+F16 "Crystal Oscillator" 1200 1500 60 H I C CNN "Type"
+F17 "N/A" 1300 1600 60 H I C CNN "Voltage"
+F18 "N/A" 1400 1700 60 H I C CNN "Wattage"
+F19 "26MHz ±10ppm Crystal 8pF" 1500 1800 60 H I C CNN "Component-Value"
+F20 "26MHz ±10ppm Crystal 8pF 40 Ohm -20°C ~ 70°C Surface Mount 4-SMD, No Lead (DFN, LCC)" 1600 1900 60 H I C CNN "Description"
+DRAW
+P 2 1 1 0 -100 -100 150 -100 N
+P 2 1 1 0 -50 -100 -50 -75 N
+P 2 1 1 0 -50 50 -25 50 N
+P 2 1 1 0 -25 -75 -25 125 N
+P 2 1 1 0 75 125 75 -75 N
+P 2 1 1 0 100 -75 100 -100 N
+P 2 1 1 0 100 50 75 50 N
+P 4 1 1 0 -50 125 -50 150 100 150 100 125 N
+P 5 1 1 0 0 100 50 100 50 -50 0 -50 0 100 N
+X ~ 1 -250 50 197 R 50 50 1 1 B
+X ~ 2 -100 -300 197 U 50 50 1 1 B
+X ~ 3 300 50 197 L 50 50 1 1 B
+X ~ 4 150 -300 197 U 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
@@ -591,6 +711,38 @@ X CHG 8 400 50 200 L 50 50 1 1 I
 X VDPM 9 -350 -850 200 U 50 50 1 1 I
 X BAT 10 400 250 200 L 50 50 1 1 I
 X GND-PAD 11 -50 -850 200 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# CBR04C470F3GAC
+#
+DEF CBR04C470F3GAC C 0 40 Y Y 1 F N
+F0 "C" -600 -50 60 H V C CNN
+F1 "CBR04C470F3GAC" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://www.kemet.com/docfinder?Partnumber=CBR04C470F3GAC" -650 150 60 H I C CNN
+F4 "0.09472 @ 10.000" -550 250 60 H I C CNN "Cost"
+F5 "30 Oct 2016" -450 350 60 H I C CNN "Date Created"
+F6 "30 Oct 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.55mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Kemet" 50 850 60 H I C CNN "MFR"
+F11 "CBR04C470F3GAC" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "1%" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402 RF Grade" 650 1450 60 H I C CNN "Type"
+F17 "25V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "47pF" -525 -250 60 H V C CNN "Componen-Value"
+F20 "47pF 25V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 I
+X ~ 2 225 0 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -1022,30 +1174,30 @@ X ~ 3 0 300 200 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# ERA-2AED363X
+# ERA-2AEB363X
 #
-DEF ERA-2AED363X R 0 40 Y Y 1 F N
+DEF ERA-2AEB363X R 0 40 Y Y 1 F N
 F0 "R" -300 350 60 H V C CNN
-F1 "ERA-2AED363X" 0 -150 60 H V C CNN
-F2 "PCB_Footprints:R0603" -400 250 60 H I C CNN
-F3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/ERA%201A,2A,3A,6A,8A.pdf" -300 450 60 H I C CNN
-F4 "0.03300 @ 5000" 1550 1950 60 H I C CNN "Cost"
-F5 "28 Oct 2016" -100 550 60 H I C CNN "Date Created"
-F6 "28 Oct 2016" 0 650 60 H I C CNN "Date Modified"
+F1 "ERA-2AEB363X" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:R0402" -400 250 60 H I C CNN
+F3 "http://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/ERA%201A,2A,3A,6A,8A.pdf" -300 450 60 H I C CNN
+F4 "0.06460 @ 5000" 1550 1950 60 H I C CNN "Cost"
+F5 "5 Nov 2016" -100 550 60 H I C CNN "Date Created"
+F6 "5 Nov 2016" 0 650 60 H I C CNN "Date Modified"
 F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
 F8 "0.4mm" 200 850 60 H I C CNN "Height"
 F9 "Yes" 300 950 60 H I C CNN "RHoS?"
 F10 "Panasonic Electronic Components" 400 1050 60 H I C CNN "MFR"
-F11 "ERA-2AED363X" 500 1150 60 H I C CNN "MFR#"
+F11 "ERA-2AEB363X" 500 1150 60 H I C CNN "MFR#"
 F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
 F13 "2" 700 1350 60 H I C CNN "Pin Count#"
 F14 "Active" 800 1450 60 H I C CNN "Status"
-F15 "0.5%" 900 1550 60 H I C CNN "Tolerance"
+F15 "0.1%" 900 1550 60 H I C CNN "Tolerance"
 F16 "passive" 1000 1650 60 H I C CNN "Type"
 F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
 F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
 F19 "36K" -550 0 60 H V C CNN "Component-Value"
-F20 "RES SMD 36K OHM 0.5% 1/16W 0402" 1400 2050 60 H I C CNN "Description"
+F20 "RES SMD 36K OHM 0.1% 1/16W 0402" 1400 2050 60 H I C CNN "Description"
 DRAW
 P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
 X ~ 1 -300 0 200 R 50 50 1 1 I
@@ -1147,47 +1299,6 @@ X ~ 6 150 200 98 D 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# FA-128_26.0000MF10Z-AC3
-#
-DEF FA-128_26.0000MF10Z-AC3 X 0 40 Y Y 1 F N
-F0 "X" -100 200 60 H V C CNN
-F1 "FA-128_26.0000MF10Z-AC3" 500 200 60 H V C CNN
-F2 "PCB_Footprints:FA-128_26.0000MF10Z-AC3" -200 100 60 H I C CNN
-F3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-128_en.pdf" -100 200 60 H I C CNN
-F4 "0.50000 @ 100" 500 800 60 H I C CNN "Cost"
-F5 "27 Sept 2016" 100 400 60 H I C CNN "Date Created "
-F6 "27 Sept 2016" 200 500 60 H I C CNN "Date Modified"
-F7 "Adam Vadala-Roth" 300 600 60 H I C CNN "Designer"
-F8 "0.5mm" 600 900 60 H I C CNN "Height"
-F9 "Yes" 700 1000 60 H I C CNN "RHoS?"
-F10 "EPSON" 800 1100 60 H I C CNN "MFR"
-F11 "FA-128 26.0000MF10Z-AC3" 900 1200 60 H I C CNN "MFR#"
-F12 "SMT/SMD" 1000 1300 60 H I C CNN "Mounting"
-F13 "4" 900 1200 60 H I C CNN "Pin Count#"
-F14 "Active" 1000 1300 60 H I C CNN "Status"
-F15 "N/A" 1100 1400 60 H I C CNN "Tolerance"
-F16 "Crystal Oscillator" 1200 1500 60 H I C CNN "Type"
-F17 "3.3V" 1300 1600 60 H I C CNN "Voltage"
-F18 "N/A" 1400 1700 60 H I C CNN "Wattage"
-F19 "26MHz ±10ppm Crystal 9pF" 1500 1800 60 H I C CNN "Component-Value"
-F20 "26MHz ±10ppm Crystal 9pF 60 Ohm -20°C ~ 75°C Surface Mount 4-SMD, No Lead (DFN, LCC)" 1600 1900 60 H I C CNN "Description"
-DRAW
-P 2 1 1 0 -100 -100 150 -100 N
-P 2 1 1 0 -50 -100 -50 -75 N
-P 2 1 1 0 -50 50 -25 50 N
-P 2 1 1 0 -25 -75 -25 125 N
-P 2 1 1 0 75 125 75 -75 N
-P 2 1 1 0 100 -75 100 -100 N
-P 2 1 1 0 100 50 75 50 N
-P 4 1 1 0 -50 125 -50 150 100 150 100 125 N
-P 5 1 1 0 0 100 50 100 50 -50 0 -50 0 100 N
-X ~ 1 -250 50 197 R 50 50 1 1 B
-X ~ 2 -100 -300 197 U 50 50 1 1 B
-X ~ 3 300 50 197 L 50 50 1 1 B
-X ~ 4 150 -300 197 U 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
 # FIDUCIAL
 #
 DEF FIDUCIAL FD 0 40 Y Y 1 F N
@@ -1205,6 +1316,70 @@ X ~ 1 -200 0 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# GJM1555C1H1R0BB01D
+#
+DEF GJM1555C1H1R0BB01D C 0 40 Y Y 1 F N
+F0 "C" -675 -50 60 H V C CNN
+F1 "GJM1555C1H1R0BB01D" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://psearch.murata.com/capacitor/product/GJM1555C1H1R0BB01%23.pdf" -650 150 60 H I C CNN
+F4 "0.02418 @ 5000" -550 250 60 H I C CNN "Cost"
+F5 "30 Oct 2016" -450 350 60 H I C CNN "Date Created"
+F6 "30 Oct 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.55mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Murata Electronics North America" 50 850 60 H I C CNN "MFR"
+F11 "GJM1555C1H1R0BB01D" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "0.1pF" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402 RF Grade" 650 1450 60 H I C CNN "Type"
+F17 "50V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "1pF" -650 -250 60 H V C CNN "Componen-Value"
+F20 "1pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 I
+X ~ 2 225 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# GJM1555C1H2R2WB01D
+#
+DEF GJM1555C1H2R2WB01D C 0 40 Y Y 1 F N
+F0 "C" -675 -50 60 H V C CNN
+F1 "GJM1555C1H2R2WB01D" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://psearch.murata.com/capacitor/product/GJM1555C1H2R2WB01%23.pdf" -650 150 60 H I C CNN
+F4 "0.05265 @ 5000" -550 250 60 H I C CNN "Cost"
+F5 "30 Oct 2016" -450 350 60 H I C CNN "Date Created"
+F6 "30 Oct 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.55mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Murata Electronics North America" 50 850 60 H I C CNN "MFR"
+F11 "GJM1555C1H2R2WB01D" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "0.05pF" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402 RF Grade" 650 1450 60 H I C CNN "Type"
+F17 "50V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "2.2pF" -650 -250 60 H V C CNN "Componen-Value"
+F20 "2.2pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 I
+X ~ 2 225 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # GND
 #
 DEF GND #PWR 0 0 Y Y 1 F P
@@ -1218,21 +1393,85 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# GRM1555C1H2R2CA01D
+# GRM0225C1E8R0WA03L
 #
-DEF GRM1555C1H2R2CA01D C 0 40 Y Y 1 F N
+DEF GRM0225C1E8R0WA03L C 0 40 Y Y 1 F N
 F0 "C" -600 -50 60 H V C CNN
-F1 "GRM1555C1H2R2CA01D" -300 -150 60 H V C CNN
+F1 "GRM0225C1E8R0WA03L" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/partnumbering_e_01.pdf" -650 150 60 H I C CNN
+F4 "0.02558 @ 5000" -550 250 60 H I C CNN "Cost"
+F5 "5 Nov 2016" -450 350 60 H I C CNN "Date Created"
+F6 "5 Nov 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.51mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Murata Electronics North America" 50 850 60 H I C CNN "MFR"
+F11 "GRM0225C1E8R0WA03L" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "0.05pF" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402" 650 1450 60 H I C CNN "Type"
+F17 "50V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "8pF" -525 -250 60 H V C CNN "Componen-Value"
+F20 "8pF 25V Ceramic Capacitor C0G, NP0 01005 (0402 Metric) 0.016\" L x 0.008\" W (0.40mm x 0.20mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 I
+X ~ 2 225 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# GRM1555C1E1R2BA01D
+#
+DEF GRM1555C1E1R2BA01D C 0 40 Y Y 1 F N
+F0 "C" -675 -50 60 H V C CNN
+F1 "GRM1555C1E1R2BA01D" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://psearch.en.murata.com/capacitor/product/GJM1555C1H5R6BB01%23.pdf" -650 150 60 H I C CNN
+F4 "0.00900 @ 5000" -550 250 60 H I C CNN "Cost"
+F5 "30 Oct 2016" -450 350 60 H I C CNN "Date Created"
+F6 "30 Oct 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.55mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Murata Electronics North America" 50 850 60 H I C CNN "MFR"
+F11 "GRM1555C1E1R2BA01D" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "0.1pF" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402" 650 1450 60 H I C CNN "Type"
+F17 "25V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "1.2pF" -650 -250 60 H V C CNN "Componen-Value"
+F20 "1.2pF 25V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 I
+X ~ 2 225 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# GRM1555C1H101GA01D
+#
+DEF GRM1555C1H101GA01D C 0 40 Y Y 1 F N
+F0 "C" -600 -50 60 H V C CNN
+F1 "GRM1555C1H101GA01D" -300 -150 60 H V C CNN
 F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
 F3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" -650 150 60 H I C CNN
-F4 "0.00285 @ 5000" -550 250 60 H I C CNN "Cost"
+F4 "0.00450 @ 5000" -550 250 60 H I C CNN "Cost"
 F5 "28 Oct 2016" -450 350 60 H I C CNN "Date Created"
 F6 "28 Oct 2016" -350 450 60 H I C CNN "Date Modifed"
 F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
 F8 "0.51mm" -150 650 60 H I C CNN "Height"
 F9 "Yes" -50 750 60 H I C CNN "RHoS?"
 F10 "Murata Electronics North America" 50 850 60 H I C CNN "MFR"
-F11 "GRM1555C1H2R2CA01D" 150 950 60 H I C CNN "MFR#"
+F11 "GRM1555C1H101GA01D" 150 950 60 H I C CNN "MFR#"
 F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
 F13 "2" 350 1150 60 H I C CNN "Pin Count#"
 F14 "Active" 450 1250 60 H I C CNN "Status"
@@ -1240,8 +1479,40 @@ F15 "2%" 550 1350 60 H I C CNN "Tolerance"
 F16 "Ceramic Capacitor 0402" 650 1450 60 H I C CNN "Type"
 F17 "50V" 750 1550 60 H I C CNN "Voltage"
 F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
-F19 "2.2pF" -525 -250 60 H V C CNN "Componen-Value"
-F20 "2.2pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+F19 "100pF" -525 -250 60 H V C CNN "Componen-Value"
+F20 "100pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 I
+X ~ 2 225 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# GRM1555C2A2R7CA01D
+#
+DEF GRM1555C2A2R7CA01D C 0 40 Y Y 1 F N
+F0 "C" -600 -50 60 H V C CNN
+F1 "GRM1555C2A2R7CA01D" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" -650 150 60 H I C CNN
+F4 "0.00625 @ 5000" -550 250 60 H I C CNN "Cost"
+F5 "28 Oct 2016" -450 350 60 H I C CNN "Date Created"
+F6 "28 Oct 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.51mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Murata Electronics North America" 50 850 60 H I C CNN "MFR"
+F11 "GRM1555C2A2R7CA01D" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "0.25pF" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402" 650 1450 60 H I C CNN "Type"
+F17 "50V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "2.7pF" -525 -250 60 H V C CNN "Componen-Value"
+F20 "2.7pF 100V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
 DRAW
 P 2 0 1 0 -25 100 -25 -100 N
 P 2 0 1 0 25 100 25 -100 N
